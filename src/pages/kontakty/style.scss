@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.main{
+    margin: 0;
+    
+    margin-top: 50px;
+}
+
+.map_one{
+    font-size: 12px;
+    top: 0px;
+}
+.map_two{
+    font-size: 12px;
+    top: 14px;
+}
+.map_three{
+    width: 560px;
+    height: 400px;
+   
+}
+.kontakty_map{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding-top: 30px;
+    margin-bottom: 0;
+    padding-bottom: 50px;
+}
+.map{
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+.logo_kontakty{
+    background-image: url("../../../images/fons/лямонаде.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 0px;
+    text-align: center;
+    padding-left: 30%;
+    text-shadow: 5px 5px 5px #103652;
+}
+
+.logo_logo_kontakty{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 50%;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    color: #FFFFFF;
+}
+.prava{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0px;
+}
+.abzac_spisok{
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    width: 50%;
+    margin-left: 10%;
+}
+.abzac{
+    padding: 10px;
+}
+h3{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+}
+.bezMenu{
+    margin-bottom: 0;
+}
+
+
+
+
+
+/*вертикальный телефон*/
+@media (max-width: 600px) {
+    .main{
+        margin: 0;
+    }
+
+    .logo_logo_kontakty{
+        font-size: 40px;
+        padding: 20px;
+        margin-left: 25%; 
+    }
+    
+    .kontakty_map{
+        display: block;
+    }
+    .abzac_spisok{
+        margin-left: 10%;
+        width: 80%;
+    }
+    .map{
+        padding-top: 20px;
+        width: 80%;
+        margin-left: 10%;
+    }
+    .logo_kontakty{
+        padding: 15px 0px;
+        background-image: url("../../../images/fons/лямонаде.png");
+    }
+    h3{
+        font-size: 22px;
+    }
+}

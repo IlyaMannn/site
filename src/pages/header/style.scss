@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.name_header{
+  font-size: 50px;
+  margin:0;
+  font-family: 'Merienda', cursive;
+  padding: 10px 0;
+  margin-right: 250px;
+  margin-top: 5px;
+  color: white;
+  text-shadow: 5px 5px 5px #103652;
+}
+.img_nav{
+  margin-left: 15px;
+  margin-top: 30px;
+}
+.networks{
+  padding-bottom: 20px;
+  display: flex;
+}
+
+.header__menu{
+  display: flex;
+  > div{
+    padding-right: 25px;
+    margin-top: 35px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+  }
+}
+
+.headerHeader {
+    display: flex;
+    justify-content: space-evenly;
+    position: fixed;
+    top: 0;
+    z-index: 100;  
+    width: 100%; 
+    background: linear-gradient(270deg, #B7B7B7 0%, #62656C 100%);
+
+  &__menu {
+    
+    display: flex;
+
+    > div {
+      margin-top: 30px;
+      position: relative;
+      a {
+        position: relative;
+        text-decoration: none;
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-size: 20px;
+        line-height: 24px;
+        align-items: center;
+        color: white;
+        padding-left: 20px;
+        z-index: 1;
+      }
+      a:hover {
+        opacity: 0.6;
+      }
+    }
+  }
+
+  &__logo {
+    display: flex;
+    margin-left: 10%;
+  }
+
+  &__icons {
+    
+
+    > div {
+      padding-right: 30px;
+    }
+
+    > div:last-child {
+      padding-right: 0;
+    }
+
+    justify-content: right;
+  }
+}
+
+
+
+
+@media (min-width: 800px) {
+  .header__burger-menu {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .header__burger-menu.visible {
+    display: block;
+  }
+  .burger{
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+  .networks{
+    margin-top: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  .headerHeader{
+    position: relative;
+    justify-content: space-between;
+  }
+  .name_header{
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    font-size: 20px;
+    margin: 0;
+  }
+
+  .img_nav{
+    width: 70%;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+
+  .header__menu {
+    display: none;
+  }
+
+  .header__menu.open {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 50%;
+    background: linear-gradient(270deg, #B7B7B7 0%, #62656C 100%);
+    padding: 20px;
+    flex-direction: column;
+    align-items: flex-start;
+    z-index: 2;
+
+    > div {
+      margin-bottom: 20px;
+      font-size: 17px;
+    }
+  }
+}
+
+

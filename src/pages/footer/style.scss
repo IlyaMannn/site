@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+.mainFooter{
+    margin: 0;
+    background: linear-gradient(270deg, #B7B7B7 0%, #62656C 100%);
+}
+.text_footer{
+    display: flex;
+    justify-content: space-between;
+    color: #FFFFFF;
+}
+.ppp_footer{
+    margin-left: 5px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+.prava{
+    color: #FFFFFF;
+    text-align: center;
+    padding-bottom: 0px;
+    font-size: 12px;
+}
+
+.networks_footer{
+    padding-bottom: 20px;
+    display: flex;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+@media (max-width: 800px) {
+    .networks_footer{
+      margin-top: 0;
+      padding-top: 0;
+      margin-right: 0;
+    }
+    .ppp_footer{
+        font-size: 10px;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Marck+Script&family=Tenor+Sans&display=swap');
+
+.logo_logo_oNas{
+    width: 100%;
+    padding: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    text-shadow: 5px 5px 5px #103652;
+    color: #FFFFFF;
+}
+
+.logo_oNas{
+    background-image:url("../../../images/fons/лямонаде.png");
+    background-size: cover;
+    margin: 0px;
+    padding: 100px 0px;
+    text-align: center;
+    padding-left: 0%;
+}
+.abzac_oNas{
+    width: 80%;
+    padding: 0 20px;
+    margin-left: 10%;
+    
+}
+
+.bezoNas{
+    margin-bottom: 0;
+}
+
+@media (max-width:480px){
+    .logo_oNas{
+        background-image: url("../../../images/fons/лямонаде.png");
+        background-size: cover;
+        padding: 40px 0;
+    }
+    .abzac_oNas{
+        width: 80%;
+        margin-left: 10%;
+        padding: 0px 10px;
+    }
+
+    .main{
+        margin: 0;
+    }
+    .logo_logo_oNas{
+        font-size: 40px;
+        padding:0px;
+        text-shadow: 5px 5px 5px #103652;
+    }
+}
